@@ -1,4 +1,4 @@
-# Performance & Scaling of RethinkDB
+# Performance & Scaling of RethinkDB 2.1.5
 
 We are happy to present our first published RethinkDB performance report to the world. After an internal collaborative effort we can reveal what we’ve discovered about the performance of RethinkDB. Some of the questions you might be looking to address may include:
 
