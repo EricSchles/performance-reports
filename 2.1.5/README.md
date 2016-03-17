@@ -17,10 +17,10 @@ Finally, we used a MapReduce query to compute word counts across the whole data 
 
 Here we we show how RethinkDB scales up to 16 servers with these various workloads:
 
-![](/assets/images/docs/performance-report/w-a.png)
-![](/assets/images/docs/performance-report/w-c-sync.png)
-![](/assets/images/docs/performance-report/w-c-async.png)
-![](/assets/images/docs/performance-report/analytical.png)
+![](/2.1.5/images/w-a.png)
+![](/2.1.5/images/w-c-sync.png)
+![](/2.1.5/images/w-c-async.png)
+![](/2.1.5/images/analytical.png)
 
 ## Workloads, Clusters, and Hardware. Oh My.
 
@@ -80,7 +80,7 @@ RethinkDB achieves a throughput of 14,600 QPS with two servers, and scales near-
 
 Latency is also an important metric to measure when testing performance. We’ve included a graph that shows the latency of writes in Workload A given a 16 server RethinkDB cluster.
 
-![](/assets/images/docs/performance-report/w-a-reads-latency.png)
+![](/2.1.5/images/w-a-reads-latency.png)
 
 ### Workload C
 
@@ -103,7 +103,7 @@ As a variation of this workload, we also tested scalability in the outdated read
 RethinkDB demonstrates extremely high scalability in this configuration, reaching throughputs of well over a million queries per second. The slightly sub-linear scalability when going from 12 to 16 database servers is caused by the client servers' CPUs getting saturated at these throughputs.
 
 
-![](/assets/images/docs/performance-report/w-c-reads-latency.png)
+![](/2.1.5/images/w-c-reads-latency.png)
 
 ### Analytical queries
 
